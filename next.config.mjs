@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export'
+    output: 'export',
+    basePath: '/my-algolia-project'
 };
 
 export default nextConfig;
